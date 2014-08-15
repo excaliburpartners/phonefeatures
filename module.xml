@@ -1,0 +1,18 @@
+<module>
+	<rawname>phonefeatures</rawname>
+	<repo>standard</repo>
+	<name>Phone Feature Integration</name>
+	<version>2.11.0.0</version>
+	<publisher>Excalibur Partners, LLC</publisher>
+	<license>GPLv2+</license>
+	<category>Connectivity</category>
+	<description>Adds DND and call forward server feature event keys integration</description>
+	<changelog>
+		*2.11.0.0* Initial release
+	</changelog>
+	<depends>
+		<module>donotdisturb ge 2.11.0.0</module>
+		<module>callforward ge 2.11.0.0</module>
+		<version>2.11.0</version>
+	</depends>
+</module>
